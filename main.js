@@ -1,6 +1,10 @@
 'use strict';
 
-require('dotenv').load();
+let env = require('dotenv');
+
+if(env) {
+  env.load();
+}
 
 let Wit = require('node-wit').Wit;
 let interactive = require('node-wit').interactive;
