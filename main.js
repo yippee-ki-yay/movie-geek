@@ -1,9 +1,7 @@
 'use strict';
 
-let env = require('dotenv');
-
-if(env) {
-  env.load();
+if (process.env.NODE_ENV !== 'production'){
+  require('dotenv').load()
 }
 
 let Wit = require('node-wit').Wit;
