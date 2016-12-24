@@ -1,0 +1,17 @@
+{
+  "name": "movie-geek",
+  "version": "1.0.0",
+  "description": "Movie bot that helps you finding out about your movies and tv shows",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nenad Palinkasevic",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "node-wit": "^4.2.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
