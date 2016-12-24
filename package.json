@@ -9,6 +9,10 @@
   },
   "author": "Nenad Palinkasevic",
   "license": "ISC",
+  "engines": {
+    "node": "~6.2.0",
+    "npm": "~3.9.0"
+  },
   "dependencies": {
     "dotenv": "^2.0.0",
     "node-wit": "^4.2.0",
