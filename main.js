@@ -87,5 +87,7 @@ const actions = {
   }
 };
 
-const client = new Wit({accessToken, actions});
-interactive(client);
+if (require.main === module) {
+  const client = new Wit({accessToken, actions});
+  interactive(client);
+}
